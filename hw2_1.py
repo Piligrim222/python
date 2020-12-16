@@ -16,3 +16,4 @@ my_list = ("Элемент списка 0 относится к типу <class 
            "Спасибо за внимание!")
 for i in range(len(my_list)):
     print(my_list[i])
+    
