@@ -20,7 +20,7 @@ else:
         my_list.append(my_list[-1])
     for i in range(0, len(my_list), 2):
         buf = my_list[i]
-    my_list[i] = my_list[i + 1]
-    my_list[i + 1] = buf
+        my_list[i] = my_list[i + 1]
+        my_list[i + 1] = buf
 
     print(my_list if test % 2 == 0 else my_list[0:-1])
