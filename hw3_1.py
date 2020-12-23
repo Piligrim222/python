@@ -1,6 +1,6 @@
 def funcResult(a1, a2):
     try:
-        result = num1 / num2
+        result = a1 / a2
         return f"Результат: {result}"
     except ZeroDivisionError:
         return "Вы ввели 0. Делить на ноль нельзя. Пока."
